@@ -76,6 +76,27 @@ nav a {
     border-radius: 8px;
 }
 
+/* Ensure the popup box doesn't get too long for the screen */
+.modal-content {
+    background-color: white;
+    margin: 2% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px; /* Limits the width for better viewing */
+    max-height: 80vh; /* Limits height to 80% of the screen */
+    overflow-y: auto; /* Adds a scrollbar inside the popup if needed */
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+
+/* Centers the Pinterest board inside the popup */
+.pinterest-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
 section {
     margin-top: 50px;
 }

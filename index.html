@@ -42,5 +42,23 @@
     </section>
 
     <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<script>
+    function openDreamboard() {
+        document.getElementById("dreamModal").style.display = "block";
+    }
+
+    function closeDreamboard() {
+        document.getElementById("dreamModal").style.display = "none";
+    }
+
+    // This part closes the popup if you click outside the white box
+    window.onclick = function(event) {
+        let modal = document.getElementById("dreamModal");
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
 </body>
 </html>

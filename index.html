@@ -21,17 +21,21 @@
     <hr>
 
     <section id="dreamboard">
-        <h2>Vietnam Dreamboard</h2>
-        <p>Get inspired by these community picks and travel ideas!</p>
-        
-        <div class="pinterest-container">
-            <a data-pin-do="embedBoard" data-pin-board-width="900" data-pin-scale-height="500" data-pin-scale-width="115" href="https://www.pinterest.com/pinterest/official-travel-board/"></a>
-            </div>
-    </section>
+    <h2>Vietnam Dreamboard</h2>
+    <button onclick="openDreamboard()" class="popup-button">View Dream Pictures</button>
 
-    <section id="tips">
-        <h2>Travel Tips (Coming Soon)</h2>
-    </section>
+    <div id="dreamModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeDreamboard()">&times;</span>
+            <h2>Travel Inspiration</h2>
+            <div class="image-grid">
+                <img src="https://images.unsplash.com/photo-1528127269322-539801943592?w=500" alt="Halong Bay">
+                <img src="https://images.unsplash.com/photo-1555438033-f261735e448a?w=500" alt="Hoi An">
+                <img src="https://images.unsplash.com/photo-1504457047772-27faf1c00561?w=500" alt="Sapa">
+            </div>
+        </div>
+    </div>
+</section>
 
     <section id="map">
         <h2>Interactive Map (Coming Soon)</h2>

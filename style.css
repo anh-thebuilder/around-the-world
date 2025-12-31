@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #003859;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+header h1 { margin: 0; }
+
+nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.pinterest-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block; /* Keeps it centered */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-top: 50px;
+}
